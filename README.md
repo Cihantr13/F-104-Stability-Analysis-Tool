@@ -4,7 +4,7 @@ This MATLAB project performs stability analysis for the F-104 aircraft at differ
 
 ## Project Structure
 
-- `stability1.m`: Main function that performs the stability analysis.
+- `Run.m`: Main function that performs the stability analysis.
 - `read_data.m`: Helper function that reads input data from a text file.
 - `data.txt`: Input data file containing aircraft properties, freestream conditions, and stability derivatives.
 
@@ -24,7 +24,7 @@ This MATLAB project performs stability analysis for the F-104 aircraft at differ
 
 2. Open MATLAB and navigate to the project directory.
 
-3. Run the `stability1.m` function to perform the stability analysis. You need to specify the altitude index (`1` for sea level, `2` for 55,000 ft).
+3. Run the `Run.m` function to perform the stability analysis. You need to specify the altitude index (`1` for sea level, `2` for 55,000 ft).
 
     Example:
     ```matlab
