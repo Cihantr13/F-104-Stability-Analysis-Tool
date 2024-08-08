@@ -1,0 +1,23 @@
+% Wing and Aircraft F-104 Properties
+S = 196; % Wing area (ft^2)
+b = 21.9; % Wingspan (ft)
+c = 9.6; % Mean aerodynamic chord (ft)
+Xcg = 0.07; % Center of gravity location
+W = 16300; % Weight of the aircraft (lb)
+Ixx = 3600; % Moment of inertia about x-axis (slug.ft^2)
+Iyy = 59000; % Moment of inertia about y-axis (slug.ft^2)
+Izz = 60000; % Moment of inertia about z-axis (slug.ft^2)
+Ixz = 0; % Product of inertia (slug.ft^2)
+
+% Freestream Conditions
+M1 = 0.257; % Mach number at sea level
+M2 = 1.8; % Mach number at 55000 ft
+V = 1742; % Freestream velocity (ft/s)
+Q = 434.5; % Dynamic pressure 
+
+% Stability Derivatives
+% static = [1.CL, 2.CD, 3.CLu, 4.CDu, 5.CLa, 6.CDa, 7.CMa, 8.CMta, 9.CMq, 10.Clb, 11.Clr, 12.CYb, 13.CYr, 14.CNb, 15.CNr, 16.CNp, 17.Clp]
+% Altitude = sea level = static(1,:)
+% Altitude = 55000 ft = static(2,:)
+0.85 0.2634 0 0 3.440 3.455 -0.644 -1.640 -5.84 -0.175 0.265 -1.180 0 0.507 -0.753 -0.144 0.285
+0.191 0.0553 -0.20 -0.060 2.005 0.384 -1.308 -2.050 -4.83 -0.093 0.154 -1.045 0 0.242 -0.649 -0.093 -0.272
