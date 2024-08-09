@@ -20,7 +20,7 @@ This MATLAB project performs stability analysis for the F-104 aircraft at differ
 
 ## Usage
 
-1. Place the `data.txt` file in the same directory as the `stability1.m` and `read_data.m` files.
+1. Place the `data.txt` file in the same directory as the `Run.m` and `read_data.m` files.
 
 2. Open MATLAB and navigate to the project directory.
 
